@@ -1,5 +1,6 @@
-This project included my practice of BMI計算機, 候選人列表, 使用者列表 and 留言板.
-It also contains a "首頁" button.
+This project included my practice of
+BMI計算機, 候選人列表, 使用者列表 and 留言板.
+It also contains a "首頁" button on the bottom of the page.
 
 
 # README

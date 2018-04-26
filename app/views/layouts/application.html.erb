@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>工具箱</title>
+    <title>喃喃</title>
     <!-- Generate csrf meta tags, protect our website from the Cross-site request forgery attack. -->
     <%= csrf_meta_tags %>
     <meta charset="UTF-8">
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
-<!-- The background-color propert defines the background color for an HTML element -->
-<!-- Sets the background color for a page to powderblue -->
+  <!-- The background-color propert defines the background color for an HTML element -->
+  <!-- Sets the background color for a page to powderblue -->
   <body style="background-color:powderblue;">
     <div class="container">
-    <%= notice %>
-    <%= yield %>
-    <h1 title="回到首頁"><%= link_to "首頁>>", root_path, class:"btn btn-primary btn-lg active" %></h1>
+      <%= notice %>
+      <%= yield %>
+      <h1 title="回到首頁"><%= link_to "首頁>>", root_path, class:"btn btn-primary btn-lg active" %></h1>
+      <!-- The HTML address element defines contact information of a document or article.-->
+      <address>
+        Written by Steven Chang.<br>
+        email: stevencch99@gmail.com<br>
+        GitHub: https://github.com/shinjisr
+      </address>
     </div>
   </body>
 </html>
